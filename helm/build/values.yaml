@@ -1,0 +1,15 @@
+app:
+  name: poi-map-app
+  namespace: ryanj
+  cluster: .apps.summit23bis.17gd.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/Summit23JanusN/ryanj-frontend
+  org: Summit23JanusN
+  name: ryanj-frontend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: ryanj/poi-map-app
+  tag: latest
